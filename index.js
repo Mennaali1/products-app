@@ -15,7 +15,6 @@ app.use(deleteProduct);
 app.use(updateProduct);
 app.use(searchProduct);
 app.use(getProductById);
-
 app.listen(3000, () => {
   console.log("server is running");
 });
